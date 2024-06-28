@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+  <div class="container flex bg-black">
+    <div class="left rounded">
+      <div class="close">
+        <img class="invert" src="img/close.svg" alt="">
+      </div>
+      <div class="home bg-gray rounded m-1 p-1">
+        <div class="logo">
+          <img width="110px" class="invert" src="img/logo.svg" alt="logo">
+        </div>
+        <ul>
+          <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+          <li><img class="invert" src="img/search.svg" alt="search">Search</li>
+        </ul>
+      </div>
+      <div class="library bg-gray rounded m-1 p-1">
+        <div class="heading">
+          <img class="invert" src="img/playlist.svg" alt="playlist">
+          <h2>
+            Your Library
+          </h2>
+        </div>
+        <div class="songlist">
+          <ul>
+
+          </ul>
+        </div>
+        <div class="footer">
+          <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+          <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+          </div>
+          <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+          <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="right bg-gray rounded ">
+      <div class="header">
+        <div class="nav">
+          <div class="hamburgercontainer flex">
+
+            <img class="invert hamburger" src="img/hamburger.svg" alt="hamburger">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+              fill="none">
+              <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+              fill="none">
+              <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="signupbtn">Sign Up</button>
+          <button class="loginbtn">Log in</button>
+        </div>
+      </div>
+      <div class="spotify-playlist">
+        <h1>Spotify Playlist</h1>
+        <div class="cardcontainer">
+
+          <div data-folder="viral-songs" class="card">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" color="#000000"
+                fill="none">
+                <path d="M20 15.4126L10 22.4126V8L20 15.4126Z" fill="black" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550" alt="">
+            <h2>Happy Hits!</h2>
+            <p>Hits full you with hapiness!</p>
+          </div>
+          <div data-folder="aleemark" class="card">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" color="#000000"
+                fill="none">
+                <path d="M20 15.4126L10 22.4126V8L20 15.4126Z" fill="black" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="https://source.boomplaymusic.com/group10/M00/07/18/fb591e2ead9043bb96e561bc75763025_464_464.jpg"
+              alt="">
+            <h2>Aleemark Hits!</h2>
+            <p>Boost your mood!</p>
+          </div>
+          <div data-folder="moosewala" class="card">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" color="#000000"
+                fill="none">
+                <path d="M20 15.4126L10 22.4126V8L20 15.4126Z" fill="black" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO0L3atTuRneqxWSmPRax2aL0vlhi7nY1CVA&s"
+              alt="">
+            <h2>Moosewala Hits!</h2>
+            <p>Dil Da Ni Mada</p>
+          </div>
+          <div data-folder="diljit" class="card">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" color="#000000"
+                fill="none">
+                <path d="M20 15.4126L10 22.4126V8L20 15.4126Z" fill="black" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="https://c.saavncdn.com/editorial/Let_sPlayDiljitDosanjhPunjabi_20230911070448_500x500.jpg" alt="">
+            <h2>Diljit Hits!</h2>
+            <p>Diljit Dosanjh Panjabi Hits!</p>
+          </div>
+          <div data-folder="karan" class="card">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" color="#000000"
+                fill="none">
+                <path d="M20 15.4126L10 22.4126V8L20 15.4126Z" fill="black" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="https://www.pagalworld.com.sb/siteuploads/thumb/sft142/70681_4.jpg" alt="">
+            <h2>Aujla Hits!</h2>
+            <p>Karan Aujla Panjabi Hits!</p>
+          </div>
+          <div data-folder="Bollywood" class="card">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" color="#000000"
+                fill="none">
+                <path d="M20 15.4126L10 22.4126V8L20 15.4126Z" fill="black" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFUsWCsn3Oaw4BFZhyf_smzAOerFvGasCqzg&s"
+              alt="">
+            <h2>BollyWood</h2>
+            <p>Bollywood songs</p>
+          </div>
+          <div data-folder="animal" class="card">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" color="#000000"
+                fill="none">
+                <path d="M20 15.4126L10 22.4126V8L20 15.4126Z" fill="black" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="img/animal.jpg" alt="">
+            <h2>Animal</h2>
+            <p>Animal Movie Songs</p>
+          </div>
+          <div data-folder="sad-songs" class="card">
+            <div class="play">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" color="#000000"
+                fill="none">
+                <path d="M20 15.4126L10 22.4126V8L20 15.4126Z" fill="black" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <img src="https://a10.gaanacdn.com/gn_img/albums/lJvKa56KDV/JvKaZmgQ3D/size_m.webp" alt="">
+            <h2>Sad songs</h2>
+            <p>Sad Songs After Break-up</p>
+          </div>
+          <div class="playbar ">
+            <div class="seekbar">
+              <div class="circle">
+
+              </div>
+            </div>
+            <div class="abovebar">
+
+              <div class="songinfo">
+
+              </div>
+              <div class="songbuttons">
+                <img width="30px" id="previous" src="img/previous.svg" alt="">
+                <img width="30px" id="play" src="img/play.svg" alt="">
+                <img width="30px" id="next" src="img/nextsong.svg" alt="">
+              </div>
+              <div class="timevol">
+
+                <div class="songtime"></div>
+                <div class="volume">
+                  <img src="img/volume.svg" alt="">
+                  <div class="range">
+                    <input type="range" name="volume">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
