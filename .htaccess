@@ -1,0 +1,14 @@
+# Allow access to this directory
+<Directory "/path/to/your/web/root/songs">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+# Enable CORS
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+# Optional: Enable directory listing
+Options +Indexes
